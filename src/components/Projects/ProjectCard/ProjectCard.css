@@ -51,6 +51,10 @@
     top: 0.35rem;
 }
 
+.project-card img{
+    width: 400px;
+    margin: 5px;
+}
 
 @media (max-width: 768px){
     .project-card{
@@ -63,5 +67,26 @@
 
     .project-card ul li{
         font-size: 0.75rem;
+    }
+}
+
+@media (max-width:500px){
+    .project-card img{
+        width: 300px;
+        margin: 10px;
+    }
+}
+
+@media (max-width:400px){
+    .project-card img{
+        width: 260px;
+        margin: 10px;
+    }
+}
+
+@media (max-width:350px){
+    .project-card img{
+        width: 200px;
+        margin: 10px;
     }
 }

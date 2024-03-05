@@ -153,6 +153,7 @@ export const PROJECT = [
     {
         title:"Reliable Data Transfer",
         location: "Northeastern University",
+        image: "./assets/images/rdt.png",
         date: "October 2022 - December 2022",
         link:"https://github.com/omkar04gaikwad/RELIABLE_DATA_TRANSFER",
         responsibilites:[
@@ -163,6 +164,7 @@ export const PROJECT = [
     {
         title:"A COMPLETE ENVIRONMENT SETUP FOR PET CARE USING IoT",
         location: "Northeastern University",
+        image: "./assets/images/iotcircuit.png",
         date: "October 2022 - December 2022",
         link:"https://github.com/omkar04gaikwad/PetCare_IoT",
         responsibilites:[
@@ -174,6 +176,7 @@ export const PROJECT = [
     {
         title:"Emotion Classifier using EEG Signal Analysis",
         location: "Mumbai University",
+        image: "./assets/images/kaggle.png",
         date: "May 2020 - July 2020",
         link:"https://github.com/omkar04gaikwad/EmotionClassifier",
         responsibilites:[
@@ -185,6 +188,7 @@ export const PROJECT = [
     {
         title:"Sentimental Analysis for Reviews on IMDB Data",
         location: "Personal Project",
+        image: "./assets/images/logistic.png",
         date: "May 2020 - June 2020",
         link:"https://github.com/omkar04gaikwad/SentimentAnalysis",
         responsibilites:[
@@ -195,6 +199,7 @@ export const PROJECT = [
     {
         title:"Automating Camera Rover for Sports Broadcast",
         location: "Mumbai University",
+        image: "./assets/images/paper.png",
         date: "May 2019 - June 2021",
         link:"https://github.com/omkar04gaikwad/CameraRover",
         responsibilites:[
@@ -207,8 +212,9 @@ export const PROJECT = [
     {
         title:"ELECTROSTATIC PRECIPITATOR FOR VEHICLE EXHAUST SOOT COLLECTION - 202221022618: Patent Pending",
         location: "Personal Project",
+        image: "./assets/images/patent.png",
         date: "May 2021 - April 2022",
-        link:"https://github.com/omkar04gaikwad/ElectrostaticPrecipitator",
+        link:"",
         responsibilites:[
             "The invention presents an electrostatic precipitator system for vehicle exhaust, aiming to reduce air particulate matter, especially soot, produced during engine combustion.",
             "The system stands out by utilizing IoT, High Voltage Electricity, and Electrostatic Discharge, offering a cost-effective solution compared to existing methods like particulate filters and catalyst systems.",

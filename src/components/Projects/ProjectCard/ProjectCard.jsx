@@ -7,10 +7,13 @@ const ProjectCard = ({ details }) => {
 }
   return (
     <div className='project-card'>
-        <h6 onClick={() => handleDemoUrl(details.link)}>{details.title}</h6>
+        <h6>{details.title}</h6>
         <span>{details.location}</span>
         <br></br>
         <div className='project-duration'>{details.date}</div>
+        <div>
+          <img src={details.image} alt ='' title={details.link} onClick={() => handleDemoUrl(details.link)}/>
+        </div>
         <ul>
             {details.responsibilites.map((item) =>(
                 <li key={item}>{item}</li>
