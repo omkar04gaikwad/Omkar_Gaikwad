@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Omkar_Gaikwad/static/css/main.3cd75e5b.css",
+    "main.js": "/Omkar_Gaikwad/static/js/main.297befc4.js",
+    "static/js/453.ace21015.chunk.js": "/Omkar_Gaikwad/static/js/453.ace21015.chunk.js",
+    "static/media/material-symbols-rounded.woff2": "/Omkar_Gaikwad/static/media/material-symbols-rounded.60cd39d93df0acc03424.woff2",
+    "static/media/material-symbols-outlined.woff2": "/Omkar_Gaikwad/static/media/material-symbols-outlined.edbab0150b35532db174.woff2",
+    "static/media/material-symbols-sharp.woff2": "/Omkar_Gaikwad/static/media/material-symbols-sharp.7dd1037cffb580c50403.woff2",
+    "static/media/slick.svg": "/Omkar_Gaikwad/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Omkar_Gaikwad/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Omkar_Gaikwad/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Omkar_Gaikwad/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Omkar_Gaikwad/index.html",
+    "main.3cd75e5b.css.map": "/Omkar_Gaikwad/static/css/main.3cd75e5b.css.map",
+    "main.297befc4.js.map": "/Omkar_Gaikwad/static/js/main.297befc4.js.map",
+    "453.ace21015.chunk.js.map": "/Omkar_Gaikwad/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cd75e5b.css",
+    "static/js/main.297befc4.js"
+  ]
+}
