@@ -1,0 +1,84 @@
+.contact-form-content{
+    width:100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1.5rem;
+}
+
+form .firstname,
+form .lastname {
+    flex: 1;
+    width: 100%; /* Adjusted width to accommodate the gap */
+    font-size: 0.9rem;
+    color: #000;
+    background: 0.6rem;
+    border: 1.5px solid #999999;
+    padding: 1rem;
+    margin-bottom: 1rem; /* Added margin for the gap */
+}
+
+form .lastname {
+    margin-bottom: 0; /* No margin on the right for the last name field */
+}
+form .email{
+    flex: 1;
+    width: 100%;
+    font-size: 0.9rem;
+    color: #000;
+    background: 0.6rem;
+    border: 1.5px solid #999999;
+    padding: 1rem;
+}
+form textarea{
+    flex: 1;
+    width: 100%;
+    font-size: 0.9rem;
+    color: #000;
+    background: 0.6rem;
+    border: 1.5px solid #999999;
+    padding: 1rem;
+}
+
+form button{
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg, #a892fe 0%, #9cb2c1 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover{
+    color: #000;
+    background: linear-gradient(90deg, #fff, rgb(228, 226, 226)100%);
+    outline: 1.5px solid #000;
+}
+
+@media (max-width: 450px){
+    .name-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    form input,
+    form textarea{
+        padding: 0.7rem;
+        border-radius: 0.3rem;
+    }
+
+    form button{
+        font-size: 0.9rem;
+        padding: 0.7rem;
+        border-radius: 0.3rem;
+    }
+}
