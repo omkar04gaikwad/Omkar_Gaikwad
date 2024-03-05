@@ -1,5 +1,5 @@
 {
-  "homepage": "https://omkar04gaikwad.github.io/omkar_gaikwad_portfolio",
+  "homepage": "https://omkar04gaikwad.github.io/Omkar_Gaikwad",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -37,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
