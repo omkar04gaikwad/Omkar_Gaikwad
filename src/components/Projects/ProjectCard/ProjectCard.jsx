@@ -1,27 +1,28 @@
-import React from 'react'
-import './ProjectCard.css'
+import React from 'react';
+import './ProjectCard.css';
 
 const ProjectCard = ({ details }) => {
   const handleDemoUrl = (url) => {
-    window.open(url, '_blank')
-}
+    window.open(url, '_blank');
+  };
+
   return (
     <div className='project-card'>
-        <h6>{details.title}</h6>
-        <span>{details.location}</span>
-        <br></br>
-        <div className='project-duration'>{details.date}</div>
-        <div>
-          <img src={details.image} alt ='' title={details.link} onClick={() => handleDemoUrl(details.link)}/>
-        </div>
-        <ul>
-            {details.responsibilites.map((item) =>(
-                <li key={item}>{item}</li>
-            ))}
-        </ul>
+      <h6>{details.title}</h6>
+      <span>{details.location}</span>
+      <br />
+      <div className='project-duration'>{details.date}</div>
+      <div>
+        <img src={details.image} alt='Project' title={details.link} onClick={() => handleDemoUrl(details.link)} />
+      </div>
+      <p>{details.summary}</p>
+      <ul>
+        {details.responsibilities.map((item, index) => (
+          <li key={index}><strong>{item.title}:</strong> {item.description}</li>
+        ))}
+      </ul>
     </div>
-
-  )
+  );
 }
 
-export default ProjectCard
+export default ProjectCard;

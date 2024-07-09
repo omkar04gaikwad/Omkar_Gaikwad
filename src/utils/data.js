@@ -151,75 +151,105 @@ export const WORK_EXPERIENCE = [
 
 export const PROJECT = [
     {
-        title:"Reliable Data Transfer",
+        title: "ASL Prediction using Pose Estimation",
+        location: "Northeastern University",
+        image: "./assets/images/asl.png",
+        date: "February 2024 - April 2024",
+        link: "https://github.com/omkar04gaikwad/ASL-Detection-and-Real-Time-Text-Conversion-System",
+        summary: "Developed a Gesture Classification system for interpreting American Sign Language (ASL) using advanced Pose Estimation techniques and Convolutional Neural Networks (CNNs). The system recognizes ASL gestures in real time, providing an interactive platform for communication between individuals who are deaf or hard of hearing and those unfamiliar with ASL. Achieved high accuracy through extensive data collection, preprocessing, model training, and validation.",
+        responsibilities: [
+          { title: "System Development", description: "Created a real-time ASL gesture recognition system using Pose Estimation and CNNs." },
+          { title: "Data Collection and Preprocessing", description: "Gathered a robust dataset of ASL gestures, extracted hand landmarks using MediaPipe, and processed the data for model training." },
+          { title: "Model Design and Training", description: "Developed a CNN model, trained it on the processed dataset, and validated its performance." },
+          { title: "Real-Time Application Development", description: "Built an interactive web application using Streamlit to translate ASL gestures into text." },
+          { title: "Performance Evaluation", description: "Conducted rigorous testing, achieving a test accuracy of approximately 97.6% for ASL sign classification." }
+        ]
+      },
+    {
+        title: "Reliable Data Transfer",
         location: "Northeastern University",
         image: "./assets/images/rdt.png",
         date: "October 2022 - December 2022",
-        link:"https://github.com/omkar04gaikwad/RELIABLE_DATA_TRANSFER",
-        responsibilites:[
-           "Scripted a C++ code, to implement three transfer layer protocols viz. Alternating bit, Go-Back-N, and Selective Repeat",
-           "Additionally, I simulated the code in an environment that mimics one-way network delay, packet corruption, and packet loss with a probability percentage ranging from 0 to 80%."
+        link: "https://github.com/omkar04gaikwad/RELIABLE_DATA_TRANSFER",
+        summary: "The Reliable Data Transport project, implemented in C++, focuses on three key protocols: Alternating-Bit, Go-Back-N, and Selective-Repeat. Each protocol is designed to ensure robust and efficient communication within a simulated network environment. The project includes:",
+        responsibilities: [
+          { title: "Alternating-Bit Protocol", description: "Ensures reliable data transfer with simple error detection and retransmission." },
+          { title: "Go-Back-N Protocol", description: "Improves efficiency by allowing multiple packets in transit and handling errors with retransmission." },
+          { title: "Selective-Repeat Protocol", description: "Enhances performance by selectively retransmitting only erroneous packets." },
+          { title: "Implementation", description: "Developed in C++ adhering to network protocol specifications." },
+          { title: "Simulation Environment", description: "Created a controlled environment to simulate packet loss, errors, and varying network conditions." },
+          { title: "Validation and Testing", description: "Conducted rigorous testing to measure throughput, packet loss, and error rates under different scenarios." }
         ]
     },
     {
-        title:"A COMPLETE ENVIRONMENT SETUP FOR PET CARE USING IoT",
+        title: "A COMPLETE ENVIRONMENT SETUP FOR PET CARE USING IoT",
         location: "Northeastern University",
         image: "./assets/images/iotcircuit.png",
         date: "October 2022 - December 2022",
-        link:"https://github.com/omkar04gaikwad/PetCare_IoT",
-        responsibilites:[
-            "As a team leader, I guided a team of 5 students to design an enclosed pet care system that enables pet owners to monitor and control food, water, and temperature through the implementation of sensor-based monitoring systems on an ESP8266 microcontroller.", 
-            "This resulted in an efficiency rate of 80% in accurately tracking and measuring food and water levels.",
-            "I also developed a lightweight GUI that includes an authentication factor using Authorization token and JWT, resulting in a 30% increase in reliability for the owner to access and manipulate various settings."
+        link: "https://github.com/omkar04gaikwad/PetCare_IoT",
+        summary: "Led a team to design a comprehensive IoT-based pet care system using an ESP8266 microcontroller. The system monitors and controls food, water, and temperature levels with sensors, achieving an 80% efficiency rate in tracking and measuring these parameters. Developed a secure GUI with authentication, improving reliability by 30%, and integrated real-time data analysis to predict pet care needs.",
+        responsibilities: [
+          { title: "Team Leadership", description: "Guided a team of 5 to design an IoT-based pet care system using an ESP8266 microcontroller." },
+          { title: "System Design", description: "Implemented sensor-based monitoring for food, water, and temperature using IR, ultrasonic, and temperature sensors." },
+          { title: "Efficiency Improvement", description: "Achieved an 80% efficiency rate in tracking and measuring food and water levels." },
+          { title: "GUI Development", description: "Developed a GUI with authentication using Authorization token and JWT, increasing reliability by 30%." },
+          { title: "Real-Time Monitoring", description: "Enabled real-time monitoring and control via a web server, with notifications for temperature, food, and water levels." }
         ]
     },
     {
-        title:"Emotion Classifier using EEG Signal Analysis",
+        title: "Emotion Classifier using EEG Signal Analysis",
         location: "Mumbai University",
         image: "./assets/images/kaggle.png",
         date: "May 2020 - July 2020",
-        link:"https://github.com/omkar04gaikwad/EmotionClassifier",
-        responsibilites:[
-            "Engineered an EEG-based Emotion Classifier for efficient valence and arousal prediction on the DEAP dataset, extracting EEG signals and applying Wavelet transform for feature extraction across delta, theta, alpha, beta, and gamma frequency bands.",
-            "Implemented an SVM Classifier, achieving outstanding emotion recognition success. Demonstrated robust performance with 98.05% accuracy in valence prediction and 97.89% accuracy in arousal prediction.",
-            "Validated the model's effectiveness through rigorous testing, showcasing its reliability and accuracy in emotion classification tasks"
+        link: "https://github.com/omkar04gaikwad/EmotionClassifier",
+        summary: "Developed an EEG-based Emotion Classifier for efficient prediction of valence and arousal using the DEAP dataset. Engineered the extraction of EEG signals and applied Wavelet transform for feature extraction across multiple frequency bands. Implemented an SVM Classifier, achieving high accuracy in emotion recognition with 98.05% for valence and 97.89% for arousal. Validated the model’s performance through rigorous testing, showcasing its reliability in classifying emotional states.",
+        responsibilities: [
+          { title: "Data Extraction", description: "Extracted and preprocessed the DEAP dataset for emotion classification." },
+          { title: "Feature Engineering", description: "Applied Wavelet transform to decompose EEG signals into delta, theta, alpha, beta, and gamma frequency bands." },
+          { title: "Model Implementation", description: "Developed and trained an SVM Classifier to predict emotional states." },
+          { title: "Performance Validation", description: "Achieved 98.05% accuracy in valence prediction and 97.89% accuracy in arousal prediction through extensive testing." }
         ]
-    },
-    {
-        title:"Sentimental Analysis for Reviews on IMDB Data",
-        location: "Personal Project",
-        image: "./assets/images/logistic.png",
-        date: "May 2020 - June 2020",
-        link:"https://github.com/omkar04gaikwad/SentimentAnalysis",
-        responsibilites:[
-            "Gather and compile 50,000 reviews on media and entertainment from the IMDB website, creating a CSV dataset.",
-            "Transform the text using the Count Vectorizer's fit-transform method and the frequency-inverse frequency method with 97% zeros.", 
-            "Classify sentiments by tokenizing the vectors and applying a logistic regression model, achieving a model accuracy of 89%."]
-    },
-    {
-        title:"Automating Camera Rover for Sports Broadcast",
+      },
+      {
+        title: "Automating Camera Rover for Sports Broadcast",
         location: "Mumbai University",
         image: "./assets/images/paper.png",
         date: "May 2019 - June 2021",
-        link:"https://github.com/omkar04gaikwad/CameraRover",
-        responsibilites:[
-            "Designed and implemented an automated Camera Rover system for sports broadcasting, reducing the need for multiple pilots and improving synchronization using Artificial Intelligence, Robotics, and Automation technologies. ",
-            "Conducted a detailed comparative analysis of Faster R-CNN, Masked R-CNN, and YOLOv3 for object detection, with YOLOv3 emerging as the superior choice due to significantly reduced GPU run-times (0.030s). ", 
-            "Successfully integrated a 3-axis Gimbal with a GoPro Hero 7 camera, ensuring smooth camera movements based on yaw and pitch angles.", 
-            "Implemented trajectory generation using cubic splines to achieve automated cinematography."
+        link: "https://github.com/omkar04gaikwad/CameraRover",
+        summary: "Designed and implemented an automated Camera Rover system for sports broadcasting, reducing pilot requirements and improving synchronization using AI, Robotics, and Automation. Conducted comparative analysis of object detection models, selecting YOLOv3 for its efficiency. Integrated a 3-axis Gimbal with a GoPro Hero 7 for smooth camera movements and used cubic splines for automated cinematography.",
+        responsibilities: [
+          { title: "System Design", description: "Developed an automated Camera Rover for sports broadcasting with AI and Robotics." },
+          { title: "Comparative Analysis", description: "Evaluated Faster R-CNN, Masked R-CNN, and YOLOv3, choosing YOLOv3 for reduced GPU run-times." },
+          { title: "Integration", description: "Integrated a 3-axis Gimbal with a GoPro Hero 7 for stable camera movements." },
+          { title: "Trajectory Generation", description: "Implemented cubic splines for automated cinematography." }
         ]
-    },
-    {
-        title:"ELECTROSTATIC PRECIPITATOR FOR VEHICLE EXHAUST SOOT COLLECTION - 202221022618: Patent Pending",
+      },
+      {
+        title: "ELECTROSTATIC PRECIPITATOR FOR VEHICLE EXHAUST SOOT COLLECTION - 202221022618: Patent Pending",
         location: "Personal Project",
         image: "./assets/images/patent.png",
         date: "May 2021 - April 2022",
-        link:"",
-        responsibilites:[
-            "The invention presents an electrostatic precipitator system for vehicle exhaust, aiming to reduce air particulate matter, especially soot, produced during engine combustion.",
-            "The system stands out by utilizing IoT, High Voltage Electricity, and Electrostatic Discharge, offering a cost-effective solution compared to existing methods like particulate filters and catalyst systems.",
-            "Core components include a ceramic casing housing electrostatic plates, pressure sensors for monitoring soot levels, an onboard computer for control, and a user interface with a WiFi module for data transmission.",
-            "The invention not only addresses environmental concerns by curbing carbon emissions but also holds market potential by allowing users to convert collected soot into ink, providing an innovative and sustainable solution."
+        link: "",
+        summary: "Developed an electrostatic precipitator system for vehicle exhaust to reduce particulate matter, particularly soot, produced during engine combustion. Utilized IoT, high voltage electricity, and electrostatic discharge to offer a cost-effective solution compared to traditional methods. Core components include a ceramic casing with electrostatic plates, pressure sensors, an onboard computer, and a user interface with WiFi for data transmission. The system addresses environmental concerns by reducing carbon emissions and converts collected soot into ink, providing an innovative and sustainable solution.",
+        responsibilities: [
+          { title: "System Development", description: "Designed an electrostatic precipitator system for vehicle exhaust to reduce soot and particulate matter." },
+          { title: "Innovation", description: "Utilized IoT, high voltage electricity, and electrostatic discharge to create a cost-effective solution." },
+          { title: "Component Integration", description: "Incorporated a ceramic casing with electrostatic plates, pressure sensors, and an onboard computer for system control." },
+          { title: "User Interface", description: "Developed a user interface with WiFi for data transmission, allowing real-time monitoring and control." },
+          { title: "Environmental Impact", description: "Reduced carbon emissions and provided a sustainable solution by converting collected soot into ink." }
         ]
-    }
+      },
+      {
+        title: "Sentiment Analysis for Reviews on IMDB Data",
+        location: "Personal Project",
+        image: "./assets/images/logistic.png",
+        date: "May 2020 - June 2020",
+        link: "https://github.com/omkar04gaikwad/SentimentAnalysis",
+        summary: "Developed a sentiment analysis model for IMDB reviews, collecting 50,000 reviews and creating a CSV dataset. Transformed text data using Count Vectorizer and TF-IDF with 97% sparsity. Implemented logistic regression for sentiment classification, achieving 89% accuracy.",
+        responsibilities: [
+          { title: "Data Collection", description: "Compiled 50,000 IMDB reviews into a CSV dataset." },
+          { title: "Text Transformation", description: "Applied Count Vectorizer and TF-IDF to preprocess text data." },
+          { title: "Model Implementation", description: "Used logistic regression for sentiment classification, achieving 89% accuracy." }
+        ]
+      },
 ]
