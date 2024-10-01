@@ -8,7 +8,6 @@ import Workex from './components/workexperience/workex';
 import Projects from './components/Projects/Project';
 import ContactMe from './components/ContactMe/ContactMe';
 import Footer from './components/Footer/Footer';
-import SocialLinks from './components/SocialLinks/SocialLinks';
 
 import { Container, Stack } from '@mui/material';
 
