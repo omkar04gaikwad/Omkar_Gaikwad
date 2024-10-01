@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Omkar_Gaikwad/static/css/main.fde3f89f.css",
+    "main.css": "/Omkar_Gaikwad/static/css/main.c8e7673a.css",
     "main.js": "/Omkar_Gaikwad/static/js/main.1195da80.js",
     "static/js/453.32bc8d24.chunk.js": "/Omkar_Gaikwad/static/js/453.32bc8d24.chunk.js",
     "static/media/slick.svg": "/Omkar_Gaikwad/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -8,12 +8,12 @@
     "static/media/slick.ttf": "/Omkar_Gaikwad/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Omkar_Gaikwad/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Omkar_Gaikwad/index.html",
-    "main.fde3f89f.css.map": "/Omkar_Gaikwad/static/css/main.fde3f89f.css.map",
+    "main.c8e7673a.css.map": "/Omkar_Gaikwad/static/css/main.c8e7673a.css.map",
     "main.1195da80.js.map": "/Omkar_Gaikwad/static/js/main.1195da80.js.map",
     "453.32bc8d24.chunk.js.map": "/Omkar_Gaikwad/static/js/453.32bc8d24.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fde3f89f.css",
+    "static/css/main.c8e7673a.css",
     "static/js/main.1195da80.js"
   ]
 }
