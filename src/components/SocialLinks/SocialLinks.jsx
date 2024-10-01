@@ -3,7 +3,7 @@ import { Box, List, ListItem, Link, Typography } from '@mui/material';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { SiLeetcode } from 'react-icons/si';
-import './SocialLinks.css';
+import './SocialLinks.css'; // Optional custom styles
 
 function SocialLinks() {
   const links = [
@@ -42,25 +42,15 @@ function SocialLinks() {
         top: '35%',
         left: '0',
         zIndex: 1000,
+        display: { xs: 'none', md: 'block' },
+        color: '#2c3e50',
       }}
     >
       <List sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
         {links.map(({ id, label, icon, href, download }) => (
           <ListItem
             key={id}
-            className="social-link-item"
-            sx={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'flex-start',
-              backgroundColor: '#ecf0f1',
-              color: '#555555',
-              borderRadius: '0 8px 8px 0',
-              transition: 'width 0.3s ease-in-out',
-              '&:hover': {
-                width: '180px', // Expand on hover to show the label
-              },
-            }}
+            className={'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gradient-to-r from-black-400 to-black-600'+" "+'rounded-tr-md'}
           >
             <Link
               href={href}
@@ -72,11 +62,12 @@ function SocialLinks() {
                 alignItems: 'center',
                 gap: 1,
                 textDecoration: 'none',
-                color: 'inherit', 
+                color: 'inherit',
                 width: '100%',
+                padding: '0 8px',
               }}
             >
-              {icon} {/* Icon remains large and consistent */}
+              {icon} {/* Icon */}
               <Typography
                 variant="body2"
                 sx={{
@@ -85,8 +76,8 @@ function SocialLinks() {
                   overflow: 'hidden',
                   transition: 'opacity 0.3s ease-in-out',
                   opacity: 0, // Hidden by default
-                  '.MuiListItem-root:hover &': { // Show label when hovering on the list item
-                    opacity: 1,
+                  '.MuiListItem-root:hover &': {
+                    opacity: 1, // Show label when hovering
                   },
                 }}
               >

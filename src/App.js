@@ -25,12 +25,10 @@ function App() {
           <Workex />
           <Skills />
           <Projects />
-          <SocialLinks />
+          <Footer />
           <ContactMe />
         </Stack>
       </Container>
-
-      <Footer />
     </>
   );
 }
