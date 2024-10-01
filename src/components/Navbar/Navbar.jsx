@@ -1,71 +1,86 @@
-import React, { useState } from 'react'
-import './Navbar.css'
-import MobileNav from './MobileNav/MobileNav';
-import 'material-symbols';
-import { MdDownload } from 'react-icons/md'
-import { Link } from 'react-scroll'
+import React, { useState } from 'react';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
+import Button from '@mui/material/Button';
+import Drawer from '@mui/material/Drawer';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
+import { MdDownload } from 'react-icons/md';
+import { Link } from 'react-scroll';
+import './Navbar.css';
+
 const Navbar = () => {
-    const [openMenu, setOpenMenu] = useState(false);
-    const toggleMenu = () => {
-        setOpenMenu(!openMenu);
-    };
-    const handleDemoUrl = () => {
-      window.open(
-          "https://drive.google.com/drive/folders/17t9KSx4QmClUnVBUZ1vOMTd1YLUxiUFu?usp=sharing",
-          '_blank')
-  }
-    const links = [
-            {
-                id: 1,
-                link: "aboutme",
-                name: "About Me"
-              },
-              {
-                id: 2,
-                link: "skills",
-                name: "Skills"
-              },
-              {
-                id: 3,
-                link: "workexperience",
-                name: "WorkExperience"
-              },
-              {
-                id: 4,
-                link: "project",
-                name: "Project"
-              },
-              {
-                id: 5,
-                link: "contactme",
-                name: "Contact Me"
-              }
-    ]
+  const [openMenu, setOpenMenu] = useState(false);
 
-    return (
+  const toggleMenu = () => {
+    setOpenMenu(!openMenu);
+  };
+
+  const handleDemoUrl = () => {
+    window.open(
+      "https://drive.google.com/drive/folders/17t9KSx4QmClUnVBUZ1vOMTd1YLUxiUFu?usp=sharing",
+      '_blank'
+    );
+  };
+
+  const links = [
+    { id: 1, link: "aboutme", name: "About Me" },
+    { id: 2, link: "workexperience", name: "Work Experience" },
+    { id: 3, link: "skills", name: "Skills" },
+    { id: 4, link: "projects", name: "Project" },
+    { id: 5, link: "contactme", name: "Contact Me" }
+  ];
+
+  return (
     <>
-    <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
-    <nav className='nav-wrapper'>
-        <div className='nav-content'>
-          <Link to={'profilediv'} smooth={true} duration={400} offset={-80}><img className='logo' src="./assets/images/logo.png" alt=''/></Link>
-            <ul>
-                {links.map(({ id, link, name })=>(
-                    <li key={id}
-                    className='menu-item'>
-                        <Link to={link} smooth={true} duration={400} offset={-130}>{name}</Link>
-                    </li>
-                ))}
-                    <button  className="contact-btn" onClick={() => handleDemoUrl()}>Resume <MdDownload size={20}/></button>
-            </ul>
-            <button class="menu-btn" onClick={toggleMenu}>
-            <span class={"material-symbols-outlined"} style={{ fontSize: "1.8rem" }}>
-                {openMenu ? "Close" : "Menu"}
-            </span>
-            </button>
-        </div>
-    </nav>
-    </>
-  )
-}
+      {/* Mobile Navigation Drawer */}
+      <Drawer anchor="left" open={openMenu} onClose={toggleMenu}>
+        <IconButton onClick={toggleMenu}>
+          <CloseIcon />
+        </IconButton>
+        <List>
+          {links.map(({ id, link, name }) => (
+            <ListItem button key={id}>
+              <Link to={link} smooth={true} duration={400} offset={-130} onClick={toggleMenu}>
+                <ListItemText primary={name} />
+              </Link>
+            </ListItem>
+          ))}
+        </List>
+      </Drawer>
 
-export default Navbar
+      {/* Desktop & Mobile Navbar */}
+      <AppBar position="fixed" sx={{ backgroundColor: '#f5f5f5' }}className="nav-wrapper">
+        <Toolbar className="nav-content">
+          <IconButton edge="start" color="inherit" onClick={toggleMenu} sx={{ display: { md: 'none' } }}>
+            <MenuIcon />
+          </IconButton>
+
+          <Link to={'profilediv'} smooth={true} duration={400} offset={-80}>
+            <img className="logo" src="./assets/images/logo.png" alt="logo" style={{ cursor: 'pointer' }} />
+          </Link>
+
+          <div className="nav-links" style={{ flexGrow: 1, display: 'flex'}}>
+            {links.map(({ id, link, name }) => (
+              <Button key={id} color="inherit" sx={{ mx: 2, color: '#000', display: { xs: 'none', md: 'block' } }}>
+                <Link to={link} smooth={true} duration={400} offset={-130}>
+                  {name}
+                </Link>
+              </Button>
+            ))}
+          </div>
+
+          <Button color="inherit" onClick={handleDemoUrl} startIcon={<MdDownload />}>
+            Resume
+          </Button>
+        </Toolbar>
+      </AppBar>
+    </>
+  );
+};
+
+export default Navbar;

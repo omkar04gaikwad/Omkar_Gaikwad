@@ -1,255 +1,223 @@
 export const SKILLS = [
     {
-        title: "Network Security",
-        icon: "./assets/images/networks.png",
-        tag: "plc",
+        title: "Cloud Technologies",
         skills: [
-                {skill: 'TCP/IP', slink: './assets/images/tcpip.png'},
-                {skill: 'DNS', slink: './assets/images/dns.png'},
-                {skill: 'Wireshark', slink: './assets/images/wireshark.png'},
-                {skill: 'Linux', slink: './assets/images/linux.png'},
-                {skill: 'Adaptive Directory', slink: './assets/images/adir.png'},
-                {skill: 'Metasploit', slink: './assets/images/metasploit.png'},
-                {skill: 'LDAP', slink: './assets/images/Ldap.png'},
-                {skill: 'Cisco Packet Tracer', slink: './assets/images/cisco.png'},
-                {skill: 'Aws', slink: './assets/images/aws.png'},
-                {skill: 'Bash Scripting', slink: './assets/images/bash.png'}
+            {skill: 'AWS', slink: './assets/images/cloud/aws.png'},
+            {skill: 'Azure', slink: './assets/images/cloud/azure.png'},
+            {skill: 'Docker', slink: './assets/images/cloud/docker.png'},
+            {skill: 'Terraform', slink: './assets/images/cloud/terraform.png'},
         ],
     },
     {
-        title: "Embedded & Control Systems Software",
-        icon: "./assets/images/embedded.png",
-        tag:"mcu",
+        title: "Databases",
         skills: [
-            {skill: 'Arduino', slink: './assets/images/arduino.png'},
-            {skill: 'STM32', slink: './assets/images/stm32.png'},
-            {skill: 'Microchip PIC', slink: './assets/images/pic.png'},
-            {skill: 'C++ Programming', slink: './assets/images/cpp.png'},
-            {skill: 'Embedded C', slink: './assets/images/ec.png'},
-            {skill: 'Raspberry pi', slink: './assets/images/rpi.png'},
-            {skill: '8051 Microcontroller', slink: './assets/images/8051.png'},
-            {skill: 'Microprocessor & Architecture', slink: './assets/images/8086.png'},
-            {skill: 'Keil µvision', slink: './assets/images/keil.png'},
-            {skill: 'Free RTOS', slink: './assets/images/freertos.png'},
-            {skill: 'STM32 Cube IDE', slink: './assets/images/cubeide.png'},
-            {skill: 'Code Composer Studio', slink: './assets/images/ccs.png'},
-            {skill: 'Texas Instruments - MSP43x, CC3200', slink: './assets/images/TImsp.png'},
-            {skill: 'Internet of Things', slink: './assets/images/IoT.png'},
-            {skill: 'Communication Protocols', slink: './assets/images/cpt.png'},
-            {skill: 'Engine Control Unit(ECU)', slink: './assets/images/ecu.png'},
-            {skill: "Matlab & Simulink", slink: './assets/images/matlab.png'},
-            {skill: "PID Controller", slink: './assets/images/pid.png'},
-            {skill: "Allen Bradley", slink: './assets/images/allenbradley.png'},
-            {skill: 'Digital Signal Processing', slink: './assets/images/dsp.png'}
+            {skill: 'Oracle', slink: './assets/images/DB/oracle.png'},
+            {skill: 'Microsoft SQL server', slink: './assets/images/DB/microsoft.png'},
+            {skill: 'Mongo DB', slink: './assets/images/DB/mogodb.png'},
+            {skill: 'MySQL', slink: './assets/images/DB/mysql.png'},
+            {skill: 'PostgreSQL', slink: './assets/images/DB/postgresql.png'}
         ],
     },
     {
-        title: "Machine Learning & Computer Vision",
-        icon:"./assets/images/ml.png",
-        tag: "ltools",
+        title: "Programming Languages",
         skills: [
-            {skill: 'Python', slink: './assets/images/python.gif'},
-            {skill: 'R', slink: './assets/images/R.png'},
-            {skill: 'Pandas', slink: './assets/images/pandas.png'},
-            {skill: 'Numpy', slink: './assets/images/numpy.png'},
-            {skill: 'Tensorflow', slink: './assets/images/tenserflow.png'},
-            {skill: 'Pytorch', slink: './assets/images/pytorch.png'},
-            {skill: 'Keras', slink: './assets/images/keras.png'},
-            {skill: 'Natural Language processing', slink: './assets/images/nlp.png'},
-            {skill: 'Open CV', slink: './assets/images/cv.png'},
-            {skill: 'Jupyter Notebook', slink: './assets/images/jupyter.png'},
-            {skill: 'Neural Networks', slink: './assets/images/neural.png'},
+                {skill: 'Python', slink: './assets/images/programming/python.png'},
+                {skill: 'Java', slink: './assets/images/programming/java.png'},
+                {skill: 'Javascript', slink: './assets/images/programming/javascript.png'},
+                {skill: 'JSON', slink: './assets/images/programming/json.png'},
+                {skill: 'Typescript', slink: './assets/images/programming/typescript.png'},
+                {skill: 'MATLAB', slink: './assets/images/programming/matlab.png'},
         ],
     },
     {
-        title: "Web Development",
-        icon:"./assets/images/webd.png",
-        tag:"cpp",
+        title: "Web Frameworks",
         skills: [
-            {skill: 'HTML', slink: './assets/images/html.png'},
-            {skill: 'JavaScript', slink: './assets/images/javascript.gif'},
-            {skill: 'React', slink: './assets/images/react.png'},
-            {skill: 'Angular', slink: './assets/images/angular.png'},
-            {skill: 'Github', slink: './assets/images/github.png'},
-            {skill: 'SQL', slink: './assets/images/sql.png'},
-            {skill: 'Flask', slink: './assets/images/flask.png'},
-            {skill: 'Django', slink: './assets/images/django.png'},
-            {skill: 'Jenkins', slink: './assets/images/jenkins.png'},
-            {skill: 'CSS', slink: './assets/images/css.png'},
-            {skill: 'REST API', slink: './assets/images/rest.png'},
-           
+            {skill: 'Flask', slink: './assets/images/frameworks/flask.png'},
+            {skill: 'Django', slink: './assets/images/frameworks/django.png'},
+            {skill: 'React', slink: './assets/images/frameworks/react.png'},
+            {skill: 'Angular', slink: './assets/images/frameworks/angular.png'},
+            {skill: 'Node.js', slink: './assets/images/frameworks/node.png'},
+            {skill: 'Spring Boot', slink: './assets/images/frameworks/spring.png'},
         ],
     },
     {
-        title: "Laboratory Tools",
-        icon:"./assets/images/circuits.png",
-        tag:"cpp",
+        title: "Middleware & CI/CD Technologies",
         skills: [
-            {skill: 'Oscilloscope', slink: './assets/images/osci.png'},
-            {skill: 'Function Generator', slink: './assets/images/function.png'},
-            {skill: 'Printed Circuit Board (PCB) Design', slink: './assets/images/pcb.png'},
-            {skill: 'Soldering Iron', slink: './assets/images/solder.png'},
-            {skill: 'Capacitors', slink: './assets/images/capacitor.png'},
-            {skill: 'Multimeter', slink: './assets/images/multi.png'},
-            {skill: 'Power Supply', slink: './assets/images/powersupply.png'},
+            {skill: 'GitHub', slink: './assets/images/middleware/github.png'},
+            {skill: 'GitLab', slink: './assets/images/middleware/gitlab.png'},
+            {skill: 'Kafka', slink: './assets/images/middleware/kafka.svg'},
+            {skill: 'Ansible', slink: './assets/images/middleware/ansible.png'},
+            {skill: 'Jenkins', slink: './assets/images/middleware/jenkins.svg'},
+            {skill: 'Chef', slink: './assets/images/middleware/chef.svg'},
         ],
     }
 ]
 
 export const WORK_EXPERIENCE = [
-    {
-        title:"Hourly Class Assistant",
-        logo:"./assets/images/coe.png",
-        location: "Northeastern University",
-        date: "January 2024 - Present",
-        responsibilites:[
-            "Mentored Class of 45 students by Conducting Office Hours, promoted Coding Practice for Python. Provided hands-on assistance by debugging and troubleshooting projects involving Python Programming"
-        ]
-    },
-    {
-        title:"Controls Software Engineer Co-op",
-        logo:"./assets/images/nuvera.png",
-        location: "Nuvera Fuel Cells LLC",
-        date: "July 2023 - December 2023",
-        responsibilites:[
-            "Spearheaded Hardware-in-the-Loop (HIL) testing procedures for the Hydrogen Engine Control Model, using Speedgoat as the emulation platform to meticulously simulate real-time tasks.",
-            "Benchmarked the accuracy of input and output pins of TTC ECU for analog and digital values with error percentage of 0-5%.",
-            "Developed Python GUI streamlining process of generating and flashing hex files in TTC ECU",
-            "Remodeled Hydrogen Fuel Cell Engine Simulink Control Model, resulting in the decrease of Simulation time by 20s.",
-            "Established Vector CAN communication between VSM ECU and GUI, enabling Hydrogen Fuel Cell Engine control, of Current, and temperature, resulting a 15% increase in efficiency."
-        ]
-    },
-    {
-        title:"Researcher",
-        logo:"./assets/images/northeastern.png",
-        location: "Northeastern University-Laboratory for Ocean Acoustics and Ecosystem Sensing",
-        date: "February 2023 - July 2023",
-        responsibilites:[
-            "Engineered a 192-meter acoustic aperture, meticulously installing 64 hydrophones across the span through precision soldering techniques.",
-            "Executed high-fidelity data acquisition by channeling signals into a suite of 24-bit, 32-channel Analog to Digital Converters (ADC) with a programmable sampling rate of up to 100 kHz per channel.",
-            "Employed closed-circuit testing to meticulously verify the integrity and precision of connections within the aperture, ensuring optimal functionality and reliability",
-            "Utilized Python for real-time data analysis, enhancing automatic signal detection, classification, and localization capabilities.", 
-            "Conducted thorough testing using oscilloscopes, logic analyzer and lab tools, ensuring robust connections and contributing to reliable system performance."
-        ]
-    },
-    {
-        title:"Senior Software Engineer",
-        logo:"./assets/images/lti.png",
-        location: "Larsen & Toubro Infotech Ltd.",
-        date: "January 2021 - August 2022",
-        responsibilites:[
-            "Started out at LTI as a Graduate Intern and promoted to a full-time position as a Graduate Engineer Trainee within 6 months. Further promoted to Senior Software Engineer in 4 months.",
-            "Led a team in developing a machine learning-based web application using Streamlit for data visualization. Achieved a 60% reduction in service tickets with a model accuracy of 95%.",
-            "Designed a WebApp converting audio to text with an accuracy of 90%, implementing AWS Transcribe and S3 bucket.",
-            "Collaborated with a team to develop APIs using Python and Angular framework, resulting in an efficiency improvement of 35%.",
-            "Migrated a Vanilla JavaScript WebApp to Java servlet, enhancing compatibility across multiple browsers with a performance improvement of 65%."
-        ]
-    }
+{
+    company: "Nuvera Fuel Cells LLC",
+    logo: "./assets/images/nuvera.png",
+    location: "Billerica, MA",
+    roles: [
+        {
+            title: "Software Engineer Co-op",
+            date: "July 2023 - December 2023",
+            projects: [
+                {
+                    title: "Data Dictionary Optimization Tool",
+                    Technologies: ["Python", "MATLAB Engine API", "AWS Amazon S3", "Boto3"],
+                    responsibilities: [
+                    "Automated the extraction of 100+ variables from Simulink Data Dictionaries, classifying them into 7 distinct categories (Analog, Digital, Actuator, etc.).",
+                    "Reduced manual data processing time by 40% by developing a Python-based tool that generated Excel files with categorized variables using pandas and openpyxl.",
+                    "Enabled seamless user modifications by implementing reverse functionality, updating 100% of user-changed variables in the Simulink Data Dictionary with 0% error.",
+                    "Streamlined data storage and retrieval by integrating Amazon S3, handling file uploads and downloads with boto3 for up to 10 GB of Excel files.",
+                    "Achieved real-time updates of the Simulink model by utilizing MATLAB Engine API for Python, reducing update time by 30%.",
+                    ]
+                },
+                {
+                    title: "AI-Powered Model Generation Framework",
+                    Technologies: ["Python", "MATLAB", "GitLab CI", "OpenAI API"],
+                    responsibilities: [
+                        "Developed a Proof of Concept (POC) tool that automates the generation of Simulink blocks (ADC, PID, LTI) using OpenAI's API to streamline the creation of control system models.",
+                        "Integrated MATLAB Engine API with Python to dynamically create and configure Simulink blocks based on generated code, reducing manual effort and increasing productivity.",
+                        "Built a comprehensive test suite in MATLAB to verify the accuracy and performance of generated blocks, ensuring adherence to control model specifications.",
+                        "Implemented a GitLab CI/CD pipeline to automate continuous integration and testing of Simulink models. Set up a self-hosted runner with MATLAB to execute tests, verify block functionality, and produce test artifacts.",
+                        "Enhanced project efficiency by introducing automated code generation and testing workflows, accelerating the development of control models by 40%."
+                    ]
+                },
+                {
+                    title: "Firmware Flashing and Configuration Platform",
+                    Technologies: ["Python", "Tkinter", "PowerShell", "JSON", "PyInstaller"],
+                    responsibilities: [
+                        "Engineered a Python-based GUI application to automate the flashing of hex files into TTC ECUs, reducing manual command-line interactions.",
+                        "Developed a robust interface using Tkinter to manage configurable options such as baud rate and COM ports, improving user experience and operational flexibility.",
+                        "Implemented PowerShell integration within the application to execute system commands asynchronously, capturing real-time output and presenting it in a console-like interface within the GUI.",
+                        "Built persistent state functionality using JSON to remember the last used hex file and directory for enhanced user convenience.",
+                        "Packaged the application into an executable using PyInstaller, bundling necessary libraries to ensure easy distribution without external dependencies.",
+                        "Created an access-controlled feature for updating core flashing libraries, allowing only authorized users to manage critical software updates via a file picker.",
+                        "Improved operational efficiency by 40%, automating the previously manual hex flashing process and reducing potential errors during command execution.",
+                    ]
+                },
+                {
+                    title: "Nonvirtual Bus-to-Vector Conversion",
+                    Technologies: ["MATLAB", "Simulink", "Jenkins CI", "Git"],
+                    responsibilities: [
+                        "Developed a MATLAB function block to convert virtual buses into vectors for nonvirtual buses, overcoming a Simulink limitation",
+                        "Automated testing and integration using Jenkins CI to ensure functionality across dynamic signal configurations, enhancing development workflows.",
+                        "Designed scalable algorithms for flexible signal handling, optimizing Simulink model simulations and validation processes."
+                    ]
+                }
+            ]
+        }
+    ]
+},
+{
+    company: "Larsen & Toubro Infotech Ltd",
+    logo: "./assets/images/lti.png",
+    location: "Mumbai, India",
+    roles: [
+        {
+            title: "Senior Software Engineer",
+            date: "July 2021 - August 2022",
+            projects: [
+                {
+                    title: "Scheduling System for Resource Management",
+                    Technologies: ["Flask", "React", "MySQL", "Ansible"],
+                    responsibilities: [
+                        "Developed and launched a full-stack scheduling system using Flask (Backend) and React (Frontend) to automate shift and severity allocations for 120 resources across 8 teams.",
+                        "Automated deployment and configuration management using Ansible, reducing deployment time and minimizing errors.",
+                        "Improved manager efficiency by 25% through automation, enabling real-time resource scheduling and reducing manual intervention.",
+                        "Integrated MySQL for data storage and added features for shift adjustments and real-time updates.",
+                    ]
+                },
+                {
+                    title: "Cross-Browser Compatibility and System Upgrade",
+                    Technologies: ["Python", "MATLAB Engine API", "AWS Amazon S3", "Boto3"],
+                    responsibilities: [
+                        "Upgraded a legacy Internet Explorer-only web app by creating a Java Servlet to replace outdated ActiveX controls, enabling secure authentication and SOAP API access for cross-browser compatibility.",
+                        "Completed thorough testing to ensure stability before production, leading to a smoother user experience across browsers.",
+                        "Used JUnit for testing and JMeter for performance checks, resolving an issue where the app became unresponsive after extended use.",
+                        "Refactored the app for deployment on Oracle Web Server, improving performance and maintainability."
+                    ]
+                },
+                
+                {
+                    title: "Speech-to-Text Microservices Application",
+                    Technologies: ["Flask, AWS Transcribe, RabbitMQ, AWS S3"],
+                    responsibilities: [
+                        "Developed a Flask-based microservices application for speech-to-text conversion, using RabbitMQ for asynchronous task management and ensuring smooth communication between services.",
+                        "Conducted a detailed comparison of Azure, AWS, IBM Watson, GCP, and Python’s own speech-to-text libraries, with AWS Transcribe emerging as the best-performing solution.",
+                        "Implemented AWS Transcribe with speaker identification and custom vocabulary features, improving transcription accuracy by 20% and scaling to process 100+ audio files daily.",
+                        "Integrated AWS S3 for scalable and reliable audio file storage, enabling efficient handling of large datasets for processing and retrieval.",
+                    ]
+                }
+            ]
+        },
+        {
+            title: "Graduate Engineer Intern",
+            date: "January 2021 - June 2021",
+            projects: [
+                {
+                    title: "Predictive Ticket Volume Forecasting Tool",
+                    Technologies: ["Python", "Streamlit", "FBProphet"],
+                    responsibilities: [
+                        "Developed a predictive tool using Streamlit and FBProphet to forecast ticket volumes, enabling proactive resource allocation and reducing ticket resolution time by 20%.",
+                        "Handled data for over 100 weekly tickets, providing actionable insights for improved team efficiency."
+                    ]
+                },
+                {
+                    title: "Full CRUD Application",
+                    Technologies: ["Python", "JWT", "LDAP", "Ansible"],
+                    responsibilities: [
+                    "Developed a full CRUD application with REST APIs, implementing JWT for secure authentication and LDAP for user access management.",
+                    "Automated server configuration and deployment using Ansible across on-prem data centers and cloud environments, reducing setup time by 30% and ensuring consistent, reliable deployments."
+                    ]
+                }
+            ]
+        }
+    ]
+}
+];
 
-
-]
 
 export const PROJECT = [
     {
-        title: "ASL Prediction using Pose Estimation",
+        title: "UrbanCart-A Secure E-commerce Simulation",
         location: "Northeastern University",
-        image: "./assets/images/asl.png",
-        date: "February 2024 - April 2024",
-        link: "https://github.com/omkar04gaikwad/ASL-Detection-and-Real-Time-Text-Conversion-System",
-        summary: "Developed a Gesture Classification system for interpreting American Sign Language (ASL) using advanced Pose Estimation techniques and Convolutional Neural Networks (CNNs). The system recognizes ASL gestures in real time, providing an interactive platform for communication between individuals who are deaf or hard of hearing and those unfamiliar with ASL. Achieved high accuracy through extensive data collection, preprocessing, model training, and validation.",
-        responsibilities: [
-          { title: "System Development", description: "Created a real-time ASL gesture recognition system using Pose Estimation and CNNs." },
-          { title: "Data Collection and Preprocessing", description: "Gathered a robust dataset of ASL gestures, extracted hand landmarks using MediaPipe, and processed the data for model training." },
-          { title: "Model Design and Training", description: "Developed a CNN model, trained it on the processed dataset, and validated its performance." },
-          { title: "Real-Time Application Development", description: "Built an interactive web application using Streamlit to translate ASL gestures into text." },
-          { title: "Performance Evaluation", description: "Conducted rigorous testing, achieving a test accuracy of approximately 97.6% for ASL sign classification." }
-        ]
-      },
+        image: "./assets/images/projects/urbancart.png",
+        date: "June 2024 - August 2024",
+        link: "https://github.com/omkar04gaikwad/UrbanCart",
+        Skills:["Python-Flask", "React", "Docker", "AWS EC2", "AWS RDS", "AWS ALB", "Nginx", "AWS WAF", "Stripe API", "Firebase OTP"],
+        summary: "UrbanCart is a secure, scalable e-commerce platform built using Python-Flask and React, designed to simulate a real-world online shopping experience with a strong emphasis on cybersecurity. Deployed using Docker containers on AWS EC2 instances, the system utilizes AWS Application Load Balancer and Nginx to ensure secure, high-availability HTTPS connections. Advanced security features, including AWS WAF and OWASP-compliant safeguards, protect against common web vulnerabilities like SQL Injection, XSS, and CSRF. The platform also integrates Stripe for secure payment processing and Firebase OTP for two-factor authentication, creating a robust, user-friendly e-commerce environment.",
+        
+    }
+    ,
     {
-        title: "Reliable Data Transfer",
+        title: "ELK-Based Security Information and Event Management (SIEM) System",
         location: "Northeastern University",
-        image: "./assets/images/rdt.png",
-        date: "October 2022 - December 2022",
-        link: "https://github.com/omkar04gaikwad/RELIABLE_DATA_TRANSFER",
-        summary: "The Reliable Data Transport project, implemented in C++, focuses on three key protocols: Alternating-Bit, Go-Back-N, and Selective-Repeat. Each protocol is designed to ensure robust and efficient communication within a simulated network environment. The project includes:",
-        responsibilities: [
-          { title: "Alternating-Bit Protocol", description: "Ensures reliable data transfer with simple error detection and retransmission." },
-          { title: "Go-Back-N Protocol", description: "Improves efficiency by allowing multiple packets in transit and handling errors with retransmission." },
-          { title: "Selective-Repeat Protocol", description: "Enhances performance by selectively retransmitting only erroneous packets." },
-          { title: "Implementation", description: "Developed in C++ adhering to network protocol specifications." },
-          { title: "Simulation Environment", description: "Created a controlled environment to simulate packet loss, errors, and varying network conditions." },
-          { title: "Validation and Testing", description: "Conducted rigorous testing to measure throughput, packet loss, and error rates under different scenarios." }
-        ]
+        image: "./assets/images/projects/elk.png",
+        date: "February 2024 - May 2024",
+        link: "https://github.com/omkar04gaikwad/Security-Information-and-Event-Management-SIEM-System",
+        Skills:["Elasticsearch", "Logstash", "Kibana", "Ansible"],
+        summary: "The ELK SIEM System is a robust platform designed to monitor and analyze security events in real time. Built using the Elasticsearch, Logstash, and Kibana (ELK) stack, the system collects, processes, and visualizes logs from various sources to detect and mitigate security threats. Logstash aggregates logs, Elasticsearch indexes them for fast search, and Kibana provides dashboards for real-time monitoring and analysis. This system enhances incident response capabilities by providing actionable insights and improving overall system security posture",
+        
     },
     {
-        title: "A COMPLETE ENVIRONMENT SETUP FOR PET CARE USING IoT",
+        title: "Booknest-Library Management System",
         location: "Northeastern University",
-        image: "./assets/images/iotcircuit.png",
-        date: "October 2022 - December 2022",
-        link: "https://github.com/omkar04gaikwad/PetCare_IoT",
-        summary: "Led a team to design a comprehensive IoT-based pet care system using an ESP8266 microcontroller. The system monitors and controls food, water, and temperature levels with sensors, achieving an 80% efficiency rate in tracking and measuring these parameters. Developed a secure GUI with authentication, improving reliability by 30%, and integrated real-time data analysis to predict pet care needs.",
-        responsibilities: [
-          { title: "Team Leadership", description: "Guided a team of 5 to design an IoT-based pet care system using an ESP8266 microcontroller." },
-          { title: "System Design", description: "Implemented sensor-based monitoring for food, water, and temperature using IR, ultrasonic, and temperature sensors." },
-          { title: "Efficiency Improvement", description: "Achieved an 80% efficiency rate in tracking and measuring food and water levels." },
-          { title: "GUI Development", description: "Developed a GUI with authentication using Authorization token and JWT, increasing reliability by 30%." },
-          { title: "Real-Time Monitoring", description: "Enabled real-time monitoring and control via a web server, with notifications for temperature, food, and water levels." }
-        ]
+        image: "./assets/images/projects/lsm.png",
+        date: "February 2023 - May 2023",
+        link: "https://github.com/omkar04gaikwad/Booknest-Library_Management_system",
+        Skills:["Django", "RabbitMQ", "Consul", "Microservices Architecture"],
+        summary: "The Booknest Library Management System is a microservices-based application designed to efficiently manage library operations, such as book lending, returns, and inventory management. Built using Django for backend services and RabbitMQ for asynchronous task management, it ensures reliable communication between services. Consul is integrated for service discovery, allowing seamless communication and scalability. The system offers features such as user authentication, book search, borrowing, and returning functionality, providing a robust, scalable solution for library management.",
     },
     {
-        title: "Emotion Classifier using EEG Signal Analysis",
-        location: "Mumbai University",
-        image: "./assets/images/kaggle.png",
-        date: "May 2020 - July 2020",
-        link: "https://github.com/omkar04gaikwad/EmotionClassifier",
-        summary: "Developed an EEG-based Emotion Classifier for efficient prediction of valence and arousal using the DEAP dataset. Engineered the extraction of EEG signals and applied Wavelet transform for feature extraction across multiple frequency bands. Implemented an SVM Classifier, achieving high accuracy in emotion recognition with 98.05% for valence and 97.89% for arousal. Validated the model’s performance through rigorous testing, showcasing its reliability in classifying emotional states.",
-        responsibilities: [
-          { title: "Data Extraction", description: "Extracted and preprocessed the DEAP dataset for emotion classification." },
-          { title: "Feature Engineering", description: "Applied Wavelet transform to decompose EEG signals into delta, theta, alpha, beta, and gamma frequency bands." },
-          { title: "Model Implementation", description: "Developed and trained an SVM Classifier to predict emotional states." },
-          { title: "Performance Validation", description: "Achieved 98.05% accuracy in valence prediction and 97.89% accuracy in arousal prediction through extensive testing." }
-        ]
-      },
-      {
-        title: "Automating Camera Rover for Sports Broadcast",
-        location: "Mumbai University",
-        image: "./assets/images/paper.png",
-        date: "May 2019 - June 2021",
-        link: "https://github.com/omkar04gaikwad/CameraRover",
-        summary: "Designed and implemented an automated Camera Rover system for sports broadcasting, reducing pilot requirements and improving synchronization using AI, Robotics, and Automation. Conducted comparative analysis of object detection models, selecting YOLOv3 for its efficiency. Integrated a 3-axis Gimbal with a GoPro Hero 7 for smooth camera movements and used cubic splines for automated cinematography.",
-        responsibilities: [
-          { title: "System Design", description: "Developed an automated Camera Rover for sports broadcasting with AI and Robotics." },
-          { title: "Comparative Analysis", description: "Evaluated Faster R-CNN, Masked R-CNN, and YOLOv3, choosing YOLOv3 for reduced GPU run-times." },
-          { title: "Integration", description: "Integrated a 3-axis Gimbal with a GoPro Hero 7 for stable camera movements." },
-          { title: "Trajectory Generation", description: "Implemented cubic splines for automated cinematography." }
-        ]
-      },
-      {
-        title: "ELECTROSTATIC PRECIPITATOR FOR VEHICLE EXHAUST SOOT COLLECTION - 202221022618: Patent Pending",
-        location: "Personal Project",
-        image: "./assets/images/patent.png",
-        date: "May 2021 - April 2022",
-        link: "",
-        summary: "Developed an electrostatic precipitator system for vehicle exhaust to reduce particulate matter, particularly soot, produced during engine combustion. Utilized IoT, high voltage electricity, and electrostatic discharge to offer a cost-effective solution compared to traditional methods. Core components include a ceramic casing with electrostatic plates, pressure sensors, an onboard computer, and a user interface with WiFi for data transmission. The system addresses environmental concerns by reducing carbon emissions and converts collected soot into ink, providing an innovative and sustainable solution.",
-        responsibilities: [
-          { title: "System Development", description: "Designed an electrostatic precipitator system for vehicle exhaust to reduce soot and particulate matter." },
-          { title: "Innovation", description: "Utilized IoT, high voltage electricity, and electrostatic discharge to create a cost-effective solution." },
-          { title: "Component Integration", description: "Incorporated a ceramic casing with electrostatic plates, pressure sensors, and an onboard computer for system control." },
-          { title: "User Interface", description: "Developed a user interface with WiFi for data transmission, allowing real-time monitoring and control." },
-          { title: "Environmental Impact", description: "Reduced carbon emissions and provided a sustainable solution by converting collected soot into ink." }
-        ]
-      },
-      {
-        title: "Sentiment Analysis for Reviews on IMDB Data",
-        location: "Personal Project",
-        image: "./assets/images/logistic.png",
-        date: "May 2020 - June 2020",
-        link: "https://github.com/omkar04gaikwad/SentimentAnalysis",
-        summary: "Developed a sentiment analysis model for IMDB reviews, collecting 50,000 reviews and creating a CSV dataset. Transformed text data using Count Vectorizer and TF-IDF with 97% sparsity. Implemented logistic regression for sentiment classification, achieving 89% accuracy.",
-        responsibilities: [
-          { title: "Data Collection", description: "Compiled 50,000 IMDB reviews into a CSV dataset." },
-          { title: "Text Transformation", description: "Applied Count Vectorizer and TF-IDF to preprocess text data." },
-          { title: "Model Implementation", description: "Used logistic regression for sentiment classification, achieving 89% accuracy." }
-        ]
-      },
+        title: "URL Shortner using AWS",
+        location: "Northeastern University",
+        image: "./assets/images/projects/urlshort.png",
+        date: "February 2023 - May 2023",
+        link: "https://github.com/omkar04gaikwad/URL_Shortner",
+        Skills:["AWS Lambda", "API Gateway", "DynamoDB", "CloudWatch"],
+        summary: "The URL Shortener Service is a scalable application that provides URL shortening functionality, developed using AWS services. It leverages AWS Lambda for serverless compute, API Gateway to handle HTTP requests, and DynamoDB for storing the mappings between short URLs and original URLs. The system is designed for high availability and scalability, allowing efficient handling of large volumes of URL shortening requests. Additionally, CloudWatch is integrated for monitoring and logging, ensuring the system's performance and reliability."
+    }
 ]

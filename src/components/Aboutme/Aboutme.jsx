@@ -1,22 +1,37 @@
-import React from 'react'
-import './Aboutme.css'
-const about = () => {
+import React from 'react';
+import { Box, Typography, Container } from '@mui/material';
+import './Aboutme.css'; // Optional for custom styles
+
+const AboutMe = () => {
   return (
-    <section className='about-container' id='aboutme'>
-        <div className='about-content'>
-        <h5>About Me</h5>
-        <p><strong>I am Omkar Rajendra Gaikwad</strong>, a highly motivated <strong>Electrical and Computer Engineering graduate student</strong> at <strong>Northeastern University</strong>, specializing in <strong>Computer Networks & Security</strong> with a keen interest in <strong>Embedded Systems, Controls Software, Machine Learning, and Computer Vision</strong>. I hold a <strong>Bachelor of Technology</strong> in Electronics Engineering from <strong>Mumbai University</strong>.</p>
+    <section id="aboutme">
+      <Box
+        sx={{
+          backgroundColor: '#ecf0f1', // Adjust the background color if needed
+          py: 2, // Reduce vertical padding to make it less spaced
+        }}
+      >
+        <Container maxWidth="lg">
+          {/* Box for title */}
+          <Box sx={{ mb: 3, textAlign: 'left' }}>
+            <Typography variant="h5" gutterBottom>
+              About Me
+            </Typography>
+          </Box>
 
-        <p>My skills encompass programming languages such as <strong>Python, C++, and C</strong>, along with expertise in lab tools like <strong>Oscilloscope</strong> and <strong>Signal Generator</strong>. In a recent co-op at <strong>Nuvera Fuel Cells</strong>, I led <strong>Hardware-in-the-Loop (HIL) testing</strong> for the <strong>Hydrogen Fuel Cell Engine Control Model</strong>, showcasing my proficiency in <strong>Python GUI development</strong> and <strong>Simulink Control Model optimization</strong>. As a researcher at <strong>Northeastern</strong>, I demonstrated meticulous engineering skills in creating a <strong>192-meter acoustic aperture</strong>.</p>
+          {/* First Paragraph */}
+          <Typography variant="body1" paragraph align="left">
+            I'm a passionate software developer with over 2 years of experience, currently pursuing my M.S. in Electrical and Computer Engineering at Northeastern University. I’m actively seeking full-time Software Engineer roles focused on backend development and network security. I love collaborating in teams, learning new skills, and building scalable applications that make a real impact.
+          </Typography>
 
-        <p>My professional journey includes a rewarding experience at <strong>Larsen & Toubro Infotech</strong>, where I started as a <strong>graduate intern</strong>. Within six months, I transitioned to a <strong>full-time role</strong>, and after an additional four months, I earned a promotion to <strong>Senior Software Engineer</strong>. In this role, I led a team in developing a <strong>machine learning-based web application</strong>, reducing service tickets by <strong>60%</strong>.</p>
-
-        <p>Outside of my professional endeavors, I find joy in playing <strong>carrom</strong> and exploring culinary arts through <strong>cooking</strong>. These hobbies contribute to my holistic approach to problem-solving and creativity. In projects, I implemented an <strong>EEG-based Emotion Classifier</strong> with a remarkable <strong>98.05% accuracy</strong> and automated a <strong>Camera Rover for sports broadcasting</strong> using <strong>YOLOv3</strong> for object detection. My journey reflects a blend of academic excellence, hands-on experience, and a passion for cutting-edge technologies.</p>
-
-        </div>
-        
+          {/* Second Paragraph */}
+          <Typography variant="body1" paragraph align="left">
+            Excited by the fast pace of the software industry, I’m always eager to take on new challenges and grow my expertise. I'm looking forward to connecting and contributing to projects that push boundaries and deliver value to users.
+          </Typography>
+        </Container>
+      </Box>
     </section>
-  )
-}
+  );
+};
 
-export default about
+export default AboutMe;

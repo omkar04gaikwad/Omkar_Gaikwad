@@ -1,51 +1,46 @@
-import React, { useState } from 'react';
-import './Skills.css';
-import { SKILLS } from '../../utils/data';
-import SkillsCard from './SkillsCard/SkillsCard';
-import SkillsInfoCard from './SkillsInfoCard/SkillsInfoCard';
+import React from 'react';
+import { Box, Typography, Grid, Container, Paper } from '@mui/material';
+import { SKILLS } from '../../utils/data'; // Importing skills from your data.js
 
 const Skills = () => {
-  const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = (item) => {
-    setTimeout(() => {
-      setIsHovered(true);
-      handleSelectedSkill(item);
-    });
-  };
-  const handleSelectedSkill = (data) => {
-    setSelectedSkill(data);
-  };
-
   return (
-    <section className='skills-container' id='skills'>
-      <h5>Technical Proficiency</h5>
+    <section id="skills">
+      <Container maxWidth="lg">
+        <Typography variant="h5" gutterBottom align="left" sx={{ mb: 4 }}>
+          Technical Proficiency
+        </Typography>
 
-      <div className='skills-content'>
-        <div className='skills'>
-          {SKILLS.map((item) => (
-            <SkillsCard
-              key={item.title}
-              iconUrl={item.icon}
-              title={item.title}
-              isActive={selectedSkill.title === item.title}
-              onMouseEnter={() => {
-                handleMouseEnter(item);
-                handleSelectedSkill(item);
-              }}
-            />
-          ))}
-        </div>
+        {SKILLS.map((skillGroup) => (
+          <Paper
+            elevation={3}
+            sx={{
+              backgroundColor: '#ecf0f1',
+              mb: 4,
+              p: 3,
+              borderRadius: 2,
+              border: '1px solid #bdc3c7',
+            }}
+            key={skillGroup.title}
+          >
+            <Typography variant="h6" gutterBottom>
+              {skillGroup.title}
+            </Typography>
 
-        <div className='skills-info'>
-          {isHovered && (
-            <SkillsInfoCard
-              skills={selectedSkill.skills}
-            />
-          )}
-        </div>
-      </div>
+            <Box sx={{ flexGrow: 1 }}>
+              <Grid container spacing={2}>
+                {skillGroup.skills.map((skill, index) => (
+                  <Grid item xs={12} sm={6} md={2} key={index}>
+                    <Box display="flex" flexDirection="column" alignItems="center">
+                      <img src={skill.slink} alt={skill.skill} style={{ width: 50, marginBottom: 8 }} />
+                      <Typography variant="body1" align="center">{skill.skill}</Typography>
+                    </Box>
+                  </Grid>
+                ))}
+              </Grid>
+            </Box>
+          </Paper>
+        ))}
+      </Container>
     </section>
   );
 };
