@@ -17,19 +17,19 @@ function SocialLinks() {
       id: 2,
       label: 'Github',
       icon: <FaGithub size={30} />,
-      href: 'https://github.com/omkar04gaikwad/Omkar_Gaikwad',
+      href: 'https://github.com/omkar04gaikwad',
     },
     {
       id: 3,
       label: 'LeetCode',
       icon: <SiLeetcode size={30} />,
-      href: 'https://leetcode.com/your-profile',
+      href: 'https://leetcode.com/u/ogaikwad0405/',
     },
     {
       id: 4,
       label: 'Resume',
       icon: <BsFillPersonLinesFill size={30} />,
-      href: 'https://drive.google.com/drive/folders/17t9KSx4QmClUnVBUZ1vOMTd1YLUxiUFu?usp=sharing',
+      href: 'https://drive.google.com/file/d/1tS7GLzr7oeEIosZrBy7ebJ4SRbHQx_n-/view?usp=sharing',
       download: true,
     }
   ];

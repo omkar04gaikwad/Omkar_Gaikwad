@@ -22,7 +22,7 @@ const Navbar = () => {
 
   const handleDemoUrl = () => {
     window.open(
-      "https://drive.google.com/drive/folders/17t9KSx4QmClUnVBUZ1vOMTd1YLUxiUFu?usp=sharing",
+      "https://drive.google.com/file/d/1tS7GLzr7oeEIosZrBy7ebJ4SRbHQx_n-/view?usp=sharing",
       '_blank'
     );
   };
