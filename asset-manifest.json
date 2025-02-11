@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/omkar04gaikwad/Omkar_Gaikwad/static/css/main.4851fb03.css",
+    "main.js": "/omkar04gaikwad/Omkar_Gaikwad/static/js/main.509cb478.js",
+    "static/js/488.15c117bb.chunk.js": "/omkar04gaikwad/Omkar_Gaikwad/static/js/488.15c117bb.chunk.js",
+    "index.html": "/omkar04gaikwad/Omkar_Gaikwad/index.html",
+    "main.4851fb03.css.map": "/omkar04gaikwad/Omkar_Gaikwad/static/css/main.4851fb03.css.map",
+    "main.509cb478.js.map": "/omkar04gaikwad/Omkar_Gaikwad/static/js/main.509cb478.js.map",
+    "488.15c117bb.chunk.js.map": "/omkar04gaikwad/Omkar_Gaikwad/static/js/488.15c117bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4851fb03.css",
+    "static/js/main.509cb478.js"
+  ]
+}
