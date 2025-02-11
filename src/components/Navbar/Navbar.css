@@ -1,0 +1,13 @@
+.nav-wrapper {
+    background-color: #f5f5f5; /* Light grey background */
+  }
+  
+  .nav-links button {
+    color: #000; /* Black text */
+  }
+  /* In your Navbar.css or global stylesheet */
+body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
