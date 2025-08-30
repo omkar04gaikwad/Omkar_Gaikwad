@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Omkar_Gaikwad/static/css/main.4851fb03.css",
-    "main.js": "/Omkar_Gaikwad/static/js/main.45f7e9c8.js",
+    "main.css": "/Omkar_Gaikwad/static/css/main.b7e37d73.css",
+    "main.js": "/Omkar_Gaikwad/static/js/main.54e64740.js",
     "static/js/488.15c117bb.chunk.js": "/Omkar_Gaikwad/static/js/488.15c117bb.chunk.js",
     "index.html": "/Omkar_Gaikwad/index.html",
-    "main.4851fb03.css.map": "/Omkar_Gaikwad/static/css/main.4851fb03.css.map",
-    "main.45f7e9c8.js.map": "/Omkar_Gaikwad/static/js/main.45f7e9c8.js.map",
+    "main.b7e37d73.css.map": "/Omkar_Gaikwad/static/css/main.b7e37d73.css.map",
+    "main.54e64740.js.map": "/Omkar_Gaikwad/static/js/main.54e64740.js.map",
     "488.15c117bb.chunk.js.map": "/Omkar_Gaikwad/static/js/488.15c117bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4851fb03.css",
-    "static/js/main.45f7e9c8.js"
+    "static/css/main.b7e37d73.css",
+    "static/js/main.54e64740.js"
   ]
 }
