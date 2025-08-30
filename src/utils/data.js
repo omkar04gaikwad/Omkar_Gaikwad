@@ -1,146 +1,160 @@
 export const SKILLS = [
     {
-        title: "Programming Languages",
+        title: "Programming",
         skills: [
-                {skill: 'Python', slink: './images/python.png'},
-                {skill: 'Java', slink: './images/java.png'},
-                {skill: 'R', slink: './images/r.png'},
-                {skill: 'SQL', slink: './images/sql.png'},
-                {skill: 'HTML5', slink: './images/html5.png'},
-                {skill: 'CSS', slink: './images/css.png'},
-                {skill: 'NodeJS', slink: './images/nodejs.png'},
-                {skill: 'JSON', slink: './images/json.png'},
+            {skill: 'Python', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'},
+            {skill: 'Java', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'},
+            {skill: 'JavaScript', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
+            {skill: 'TypeScript', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'},
         ],
     },
     {
         title: "Databases",
         skills: [
-            {skill: 'Oracle', slink: './images/oracle.png'},
-            {skill: 'Microsoft SQL server', slink: './images/mssql.png'},
-            {skill: 'Mongo DB', slink: './images/mongodb.png'},
-            {skill: 'MySQL', slink: './images/mysql.png'},
-            {skill: 'PostgreSQL', slink: './images/postgresql.png'},
-            {skill: 'Redis', slink: './images/redis.svg'}
+            {skill: 'PostgreSQL', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'},
+            {skill: 'MySQL', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'},
+            {skill: 'SQLite', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg'},
+            {skill: 'MongoDB', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'},
         ],
     },
     {
-        title: "Cloud and DevOps",
+        title: "Message Queues",
         skills: [
-                {skill: 'AWS', slink: './images/aws.png'},
-                {skill: 'ELB', slink: './images/elb.png'},
-                {skill: 'EC2', slink: './images/ec2.svg'},
-                {skill: 'RDS', slink: './images/rds.svg'},
-                {skill: 'Lambda', slink: './images/lambda.png'},
-                {skill: 'Terraform', slink: './images/terraform.png'},
-                {skill: 'CloudWatch', slink: './images/cloudwatch.svg'},
-                {skill: 'CI/CD', slink: './images/cicd.png'},
-                {skill: 'Jenkins', slink: './images/jenkin.png'},
-
+            {skill: 'RabbitMQ', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg'},
+            {skill: 'Redis', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg'},
+            {skill: 'Apache Kafka', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg'},
+            {skill: 'Amazon SQS', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg'},
         ],
     },
     {
-        title: "Web Frameworks",
+        title: "Backend",
         skills: [
-            {skill: 'Flask', slink: './images/flask.png'},
-            {skill: 'Django', slink: './images/django.png'},
-            {skill: 'Spring MVC', slink: './images/springmvc.svg'},
-            {skill: 'Spring Boot', slink: './images/spring-boot.webp'},
-            {skill: 'ReactJS', slink: './images/react.png'},
-            {skill: 'Angular', slink: './images/angular.png'},
-            {skill: 'Apache Spark', slink: './images/spark.png'},
+            {skill: 'Flask', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg'},
+            {skill: 'Django', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg'},
+            {skill: 'Spring Boot', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg'},
+            {skill: 'Node.js', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'},
+            {skill: 'Mockito', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'},
         ],
     },
     {
-        title: "Middleware & CI/CD Technologies",
+        title: "Frontend",
         skills: [
-            {skill: 'GitHub', slink: './images/git.png'},
-            {skill: 'Kafka', slink: './images/kafka.svg'},
-            {skill: 'Tensorflow', slink: './images/tensorflow.png'},
-            {skill: 'RabbitMQ', slink: './images/rabbitmq.svg'},
-            {skill: 'OpenCV', slink: './images/opencv.png'},
-            {skill: 'Pandas', slink: './images/pandas.png'},
-            {skill: 'NumPy', slink: './images/numpy.png'},
-            {skill: 'Docker', slink: './images/docker.png'},
-            
+            {skill: 'Angular', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg'},
+            {skill: 'React.js', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
+            {skill: 'Vue.js', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
+            {skill: 'Figma', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'},
+            {skill: 'HTML', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'},
+        ],
+    },
+    {
+        title: "Cloud & DevOps",
+        skills: [
+            {skill: 'Docker', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg'},
+            {skill: 'Terraform', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg'},
+            {skill: 'GitHub Actions', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'},
+            {skill: 'Jenkins', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg'},
+            {skill: 'AWS', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg'},
+            {skill: 'Azure', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg'},
+            {skill: 'GCP', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg'},
+            {skill: 'Oracle Cloud', slink: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg'},
         ],
     }
-]
+];
 
 export const WORK_EXPERIENCE = [
     {
-      company: "Nuvera Fuel Cells LLC",
-      logo: "./assets/images/nuvera.png",
-      location: "Billerica, MA",
+      company: "Ipser Labs",
+      logo: "./assets/images/ipser.png",
+      location: "Remote",
       roles: [
         {
-          title: "Software Engineer Intern",
-          date: "July 2023 - December 2023",
+          title: "Software Engineer",
+          date: "May 2025 - Present",
           summary:
-            "Developed automation tools for Simulink Data Dictionaries, reducing manual processing by 40%. " +
-            "Built AI-powered frameworks for Simulink block generation, improving control model efficiency. " +
-            "Created GUI-based firmware flashing tools to automate ECU updates, enhancing deployment speed."
+            "Built a Shopify-Style deep customizable e-commerce platform using Spring Boot, Angular and PostgreSQL allowing users to have vast options. " +
+            "Enhanced Platform security by implementing JWT authentication, Firebase OTP (MFA), and Stripe API webhooks for secure payment transactions. " +
+            "Utilized Terraform, AWS CloudFormation, and AWS CDK alongside Docker for IaC, enhancing scalability, and reducing operational complexity. " +
+            "Integrated RabbitMQ, ElasticSearch, and GraphQL for asynchronous processing, scalable indexing, and efficient data querying."
         }
       ]
     },
     {
-        company: "Laboratory for Ocean Acoustics and Ecosystem Sensing",
-        logo: "./assets/images/nuvera.png",
-        location: "Billerica, MA",
-        roles: [
-          {
-            title: "Graduate Research Assistant",
-            date: "February 2023 - July 2023",
-            summary:
-            "Designed and manufactured PCBs for hydrophone ADC interfaces, ensuring signal integrity and minimizing EMI" +
-            "Leveraged oscilloscopes, multimeters, logic analyzers to ensure signal integrity and executed open-circuit and closed-circuit" +
-            "testing on a 160- element hydrophone array to check circuit continuity" +
-            "Integrated power distribution modules, stabilizing DC conversion from 300V to 48V for system reliability" +
-            "Calibrated pre-amplifier circuits to maintain a 10Hz – 50kHz frequency response, improving sensor accuracy"
-          }
-        ]
-      },
+      company: "Humanitarians AI",
+      logo: "./assets/images/humanitarians.png",
+      location: "Remote",
+      roles: [
+        {
+          title: "Software Engineer",
+          date: "February 2025 - May 2025",
+          summary:
+            "Designed a Doctor Recommendation System that analyzes over 500k+ doctors' profile and suggests relevant doctors based on key features. " +
+            "Integrated Chroma DB to store vector embeddings of 300k+ reports, Ollama and Groq API for LLM generating recommendations for doctors. " +
+            "Built a Patient Triage Generative AI application to prioritize patients based on the severity of their medical condition into 5 triage levels. " +
+            "Implemented RAG based Architecture using Groq (LLaMA 3.2-90B Vision Preview) model for sentence transformations and outputs."
+        }
+      ]
+    },
     {
-      company: "Larsen & Toubro Infotech Ltd",
+      company: "Nuvera Fuel Cells",
+      logo: "./assets/images/nuvera.png",
+      location: "Boston, MA",
+      roles: [
+        {
+          title: "Software Engineer",
+          date: "July 2023 - December 2023",
+          summary:
+            "Led the development of GenAI application to generate Simulink building blocks for the control model of hydrogen fuel cell engine improving " +
+            "model creation time by 14% and reducing human errors. " +
+            "Developed a GPT-4 powered chatbot using LangChain and PyPDF to ingest telemetry datasheets into VectorDB, providing valuable insights. " +
+            "Designed a Data Ingestion web application using Flask, and React.js with RBAC controls, enabling Excel-based control variable editing and " +
+            "versioned import/export via Amazon S3, cutting down manual work by 60% and improving model consistency. " +
+            "Implemented a GitHub Actions CI/CD pipeline to automate faster Simulink model testing and deployment on ECU Firmware, increasing reliability. " +
+            "Engineered Redis caching and RabbitMQ messaging to handle 50K+ real-time telemetry events from engines, ensuring reliable fault tracking."
+        }
+      ]
+    },
+    {
+      company: "Larsen & Toubro Infotech",
       logo: "./assets/images/lti.png",
       location: "Mumbai, India",
       roles: [
         {
-          title: "Senior Software Engineer",
-          date: "July 2021 - August 2022",
+          title: "Software Engineer",
+          date: "January 2021 - August 2022",
           summary:
-            "Developed a scheduling system to automate resource allocation for 120+ employees. " +
-            "Refactored legacy web apps to support modern browsers, ensuring cross-browser compatibility. " +
-            "Designed microservices for speech-to-text applications, scaling processing capacity significantly."
-        }
-      ]
-    },
-    {
-      company: "Larsen & Toubro Infotech Ltd",
-      logo: "./assets/images/lab.png",
-      location: "Mumbai, India",
-      roles: [
-        {
-          title: "Graduate Engineer Intern",
-          date: "January 2021 - June 2021",
-          summary:
-            "Built Activity Management System using Java Spring Boot and Hibernate ORM, improving task tracking efficiency by 40%"+
-            "Developed Restful APIs for user registration, task creation, updates and reporting to support 1000+ concurrent users" +
-            "Implemented JWT – based authentication with Spring Security, enabling Role – based Access Controls for 100+ users" +
-            "Orchestrated Jenkins CI/CD pipelines to automate testing and deployment workflows, cutting deployment time by 17% " 
+            "Led the development of Automated Lab Transcription application for medical applications using Python Flask, React.js and AWS cloud (AWS " +
+            "Transcribe and S3 bucket), to achieve 96% transcription accuracy, enabling version-controlled access, and reducing manual effort. " +
+            "Architected a scalable microservice based medical records system with Spring Boot and MongoDB to manage 50M+ entries, implementing " +
+            "versioned data models and REST APIs for secure access to clinical histories and lab reports. " +
+            "Revamped a legacy Internet Explorer-only website by replacing ActiveX authentication with a Java Servlet-based LDAP and JWT solution, " +
+            "making it compatible with modern browsers and deployable on Oracle WebLogic Server. " +
+            "Developed a real-time, machine learning-powered duplicate detection system using KNN and Vector DB, identifying CRM object duplicates with " +
+            "over 85% confidence and scaling across 100K+ portals via Kafka swim lanes. " +
+            "Engineered a RESTful API service using Spring Boot and HBase to transitively merge duplicate CRM objects, retaining merger history and " +
+            "enabling future reverts, leading to 90%+ automation of customer reviews. " +
+            "Adopted Agile and Test-Driven Development TDD methodologies using Junit and Mockito improving test accuracy by 25%."
         }
       ]
     }
-    ];
+];
 
 
 export const PROJECT = [
     {
-        title: "Automated Skin Lesion Classification System",
-        image: "./images/parallel_processing.png",
-        date: "December 2024",
-        link: "https://github.com/omkar04gaikwad/Automated-SKin-Lesion-System",
-        Skills: ["Python", "Apache Spark", "CNN"],
-        summary: "This project focuses on developing an Automated Skin Lesion Classification System that leverages state-of-the-art deep learning models to analyze dermoscopic images of skin lesions. The system is designed to classify lesions into eight distinct classes, providing a reliable and efficient tool for early detection of skin cancer.",
+        title: "Rate Limiter Service",
+        image: "./images/ratelimiter.png",
+        date: "January 2025",
+        link: "https://github.com/omkar04gaikwad/rate_limiter_service",
+        Skills: ["Python", "Flask", "Redis", "Docker", "Token Bucket Algorithm", "API Gateway", "REST API"],
+        summary: "A high-performance, scalable rate limiting service built with Flask and Redis, implementing the Token Bucket Algorithm in API Gateway style. Features include configurable rate limits, real-time monitoring, Docker support, RESTful API endpoints, health checks, and rate limit headers. Implements efficient token bucket algorithm with burst handling and fair distribution.",
+    },
+    {
+        title: "URL Shortener - AWS Lambda Service",
+        image: "./images/url_short.png",
+        date: "January 2025",
+        link: "https://github.com/omkar04gaikwad/URL_Shortener_Service",
+        Skills: ["Python", "AWS Lambda", "DynamoDB", "API Gateway", "Serverless", "CloudFormation", "REST API"],
+        summary: "A serverless URL shortening service built with AWS Lambda, API Gateway, and DynamoDB, optimized for AWS Free Tier usage. Features include URL shortening/redirection, click analytics, persistent storage, smart caching, and cost optimization. Implements in-memory caching to reduce DynamoDB calls and stay within free tier limits.",
     },
     {
         title: "UrbanCart",
@@ -159,22 +173,6 @@ export const PROJECT = [
         summary: "The Movie Booking App is designed to allow users to search for movies, book tickets, and manage bookings through an interactive interface. The application also provides admin capabilities to manage movie listings and update ticket statuses.",
     },
     {
-        title: "SIEM Intrusion Detection",
-        image: "./images/siem.png",
-        date: "December 2024",
-        link: "https://github.com/omkar04gaikwad/SIEM_Intrusion_Detection",
-        Skills: ["ELK Stack", "Network Security"],
-        summary: "This project demonstrates the process of analyzing firewall log data for intrusion detection using the ELK (Elasticsearch, Logstash, and Kibana) stack. The primary goal is to monitor, visualize, and gain actionable insights from network logs in real time. The data used in this project is sourced from a low-interaction honeypot environment designed to capture potential intrusion attempts.",
-    },
-    {
-        title: "ASL Detection and Real-Time Text Conversion System",
-        image: "./images/hand.png",
-        date: "April 2024",
-        link: "https://github.com/omkar04gaikwad/ASL-Detection-and-Real-Time-Text-Conversion-System",
-        Skills: ["Python", "OpenCV", "TensorFlow"],
-        summary: "This project focuses on real-time American Sign Language (ASL) prediction using Pose Estimation techniques. It employs Convolutional Neural Networks (CNNs) combined with MediaPipe's 2D pose estimation to accurately classify hand gestures into ASL alphabets. The primary objective is to enhance communication accessibility for individuals who are deaf or hard of hearing, allowing seamless interaction with non-ASL users.",
-    },
-    {
         title: "Library Management System",
         image: "./images/movie_ticket_booking_system.png",
         date: "July 2020",
@@ -183,53 +181,12 @@ export const PROJECT = [
         summary: "The Library Management System is a Java-based desktop application with a graphical user interface (GUI) designed to manage library operations efficiently. It allows librarians to manage books, users, and transactions seamlessly.",
     },
     {
-        title: "OgRUN2d",
-        image: "./images/ogrun.png",
-        date: "July 2020",
-        link: "https://github.com/omkar04gaikwad/OgRUN2d",
-        Skills: ["C++", "SFML"],
-        summary: "OgRUN2d is a 2D game developed using the Unity engine. The game features [brief description of gameplay, e.g., a side-scrolling platformer where players navigate through various levels, overcoming obstacles and enemies to reach the end goal.",
-    },
-    {
         title: "LTI App",
         image: "./images/movie_ticket_booking_system.png",
         date: "June 2021",
         link: "https://github.com/omkar04gaikwad/LTI-app",
         Skills: ["Java", "Android"],
         summary: "Developed an Android application for LTI integration, enabling seamless access to learning tools and resources within the app. The application enhances the learning experience by providing a user-friendly interface and efficient resource management.",
-    },
-    
-    {
-        title: "Reliable Data Transfer Protocols",
-        image: "./images/selectiverepeat.jpg",
-        date: "February 2024",
-        link: "https://github.com/omkar04gaikwad/RELIABLE_DATA_TRANSFER",
-        Skills: ["C", "Networking", "TCP"],
-        summary: "Implemented reliable data transport protocols, including Alternating-Bit, Go-Back-N, and Selective-Repeat, in C. The project provides a robust communication framework adhering to specified protocols, ensuring efficient data transmission.",
-    },
-    {
-        title: "Smart Pet Care System",
-        image: "./images/circuit.png",
-        date: "February 2024",
-        link: "https://github.com/omkar04gaikwad/SmartPetcareSystem",
-        Skills: ["IoT", "Arduino", "Sensors"],
-        summary: "Designed an IoT-based solution for pet owners to monitor and control pet care parameters such as food, water, and temperature. The system utilizes sensors connected to an Arduino board and provides a GUI for remote access and management, ensuring pet welfare even when owners are away.",
-    },
-    {
-        title: "Automating Camera Rover for Sports Broadcast",
-        image: "./images/ieee.gif",
-        date: "January 2021",
-        link: "https://ieeexplore.ieee.org/document/9579752",
-        Skills: ["STM32", "Nvidia Jetsen nano", "Sensors"],
-        summary: "A considerable amount of time and resources are spent on training pilots for a sports broadcast. A typical Camera Rover system requires multiple pilots to capture shots",
-    },
-    {
-        title: "Electrostatic Precipitator for Vehicle Exhaust Soot Collection",
-        image: "./images/electrostatic.png",
-        date: "January 2022",
-        link: "https://github.com/omkar04gaikwad/ELECTROSTATIC-PRECIPITATOR-FOR-VEHICLE-EXHAUST-SOOT-COLLECTION",
-        Skills: ["IoT", "Arduino", "Sensors"],
-        summary: "The invention consists of an electrostatic precipitator inside a small ceramic barrel attached at the end of vehicle exhaust along with a meager controller box attached to the underside of the automobile. It is powered by the principal automotive battery and uses the collected soot from the cartridge to produce ink. The exhaust quality, filter status, carbon content, and cartridge life are timely sent via push notifications to the user. Allowing them to refill and clean and reimburse their old cartridges for the new ones at relatively small sums of money. ",
-    },
-    ];
+    }
+];
     

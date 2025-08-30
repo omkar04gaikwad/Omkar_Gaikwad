@@ -25,7 +25,6 @@ function App() {
           <Workex />
           <Skills />
           <Projects />
-          <Footer />
           <ContactMe />
         </Stack>
       </Container>
