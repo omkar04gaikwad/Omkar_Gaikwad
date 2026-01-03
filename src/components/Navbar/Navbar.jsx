@@ -59,7 +59,7 @@ const Navbar = () => {
 
   const handleDemoUrl = () => {
     window.open(
-      "https://drive.google.com/file/d/1ihToFq5elqOBnBng1stZwIl3TH5YqaZ1/view?usp=sharing",
+      "https://drive.google.com/file/d/1csKgiXvvmvS7fAzmJwacirwHFztNMXOc/view?usp=sharing",
       '_blank'
     );
   };

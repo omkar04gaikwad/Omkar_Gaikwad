@@ -41,7 +41,7 @@ const AboutMe = () => {
   ];
 
   // Convert Google Drive sharing link to preview mode
-  const driveUrl = "https://drive.google.com/file/d/1ihToFq5elqOBnBng1stZwIl3TH5YqaZ1/view?usp=sharing";
+  const driveUrl = "https://drive.google.com/file/d/1csKgiXvvmvS7fAzmJwacirwHFztNMXOc/view?usp=sharing";
   const fileId = driveUrl.match(/\/d\/(.+?)\//)?.[1];
   const previewUrl = fileId ? `https://drive.google.com/file/d/${fileId}/preview` : driveUrl;
 
@@ -304,7 +304,7 @@ const AboutMe = () => {
                         Email
                       </Typography>
                       <Typography variant="body2" sx={{ color: '#495057', fontWeight: 500, wordBreak: 'break-all' }}>
-                        gaikwad.o@northeastern.edu
+                        ogaikwad0405@gmail.com
                       </Typography>
                     </Box>
                   </Box>

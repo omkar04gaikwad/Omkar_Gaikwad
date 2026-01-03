@@ -62,19 +62,32 @@ export const SKILLS = [
 ];
 
 export const WORK_EXPERIENCE = [
-    {
-      company: "Ipser Labs",
+  {
+    company: "Deloitte Consulting LPP",
+    logo: "./assets/images/ipser.png",
+    location: "Sacramento, CA",
+    roles: [
+      {
+        title: "Software Engineer",
+        date: "Dec 2025 - Present",
+        summary:
+          "Designed a Spring Batch-based pipeline to transitively merge child benefits data while preserving merge history for auditability and rollback, automating over 90% of manual review work. " +
+          "Built a gRPC geo-location service to normalize and validate partial or incorrect addresses using scoring methods, ensuring consistent and accurate location data for child records submitted by client systems."
+      }
+    ]
+  },  
+  {
+      company: "IpserLab LLC",
       logo: "./assets/images/ipser.png",
-      location: "Remote",
+      location: "Remote, USA",
       roles: [
         {
-          title: "Software Engineer",
-          date: "May 2025 - Present",
+          title: "Full Stack Software Engineer",
+          date: "May 2025 - Nov 2025",
           summary:
-            "Built a Shopify-Style deep customizable e-commerce platform using Spring Boot, Angular and PostgreSQL allowing users to have vast options. " +
-            "Enhanced Platform security by implementing JWT authentication, Firebase OTP (MFA), and Stripe API webhooks for secure payment transactions. " +
-            "Utilized Terraform, AWS CloudFormation, and AWS CDK alongside Docker for IaC, enhancing scalability, and reducing operational complexity. " +
-            "Integrated RabbitMQ, ElasticSearch, and GraphQL for asynchronous processing, scalable indexing, and efficient data querying."
+            "Architected a full-stack B2B e-commerce platform with Spring Boot and Angular, supporting scalable business workflows. " +
+            "Accelerated dashboard performance by introducing Redis-backed caching for PostgreSQL queries, increasing throughput from 5 QPS to 200 QPS and cutting page load time by 85%. " +
+            "Delivered a secure authentication service using Spring Security, OAuth 2.0, and JWT, sustaining sub-150ms login latency across SSO and multi-factor authentication flows."
         }
       ]
     },
@@ -100,39 +113,28 @@ export const WORK_EXPERIENCE = [
       location: "Boston, MA",
       roles: [
         {
-          title: "Software Engineer",
-          date: "July 2023 - December 2023",
+          title: "Software Engineer co-op",
+          date: "Jul 2023 - Dec 2023",
           summary:
-            "Led the development of GenAI application to generate Simulink building blocks for the control model of hydrogen fuel cell engine improving " +
-            "model creation time by 14% and reducing human errors. " +
-            "Developed a GPT-4 powered chatbot using LangChain and PyPDF to ingest telemetry datasheets into VectorDB, providing valuable insights. " +
-            "Designed a Data Ingestion web application using Flask, and React.js with RBAC controls, enabling Excel-based control variable editing and " +
-            "versioned import/export via Amazon S3, cutting down manual work by 60% and improving model consistency. " +
-            "Implemented a GitHub Actions CI/CD pipeline to automate faster Simulink model testing and deployment on ECU Firmware, increasing reliability. " +
-            "Engineered Redis caching and RabbitMQ messaging to handle 50K+ real-time telemetry events from engines, ensuring reliable fault tracking."
+            "Developed a Python Flask-based Over-the-Air (OTA) update system to deploy C code to engine controllers, supporting both manual and automated rollouts, reducing firmware update time by 65%. " +
+            "Orchestrated a GitHub Actions CI/CD pipeline to validate Simulink models, generate C code via automated code generation, package artifacts into custom images to AWS using Packer. " +
+            "Built a Python Tkinter-based interface to monitor and control engine behavior in real time during testing, capturing structured telemetry and test outputs for downstream analysis. " +
+            "Performed exploratory data analysis and trend analysis on engine test data collected during real-time runs, using AWS S3 and Athena to query, aggregate and evaluate performance metrics, and detect anomalies."
         }
       ]
     },
     {
-      company: "Larsen & Toubro Infotech",
+      company: "Larsen & Toubro Infotech Ltd",
       logo: "./assets/images/lti.png",
       location: "Mumbai, India",
       roles: [
         {
-          title: "Software Engineer",
-          date: "January 2021 - August 2022",
+          title: "Senior Software Engineer",
+          date: "Jan 2021 - Aug 2022",
           summary:
-            "Led the development of Automated Lab Transcription application for medical applications using Python Flask, React.js and AWS cloud (AWS " +
-            "Transcribe and S3 bucket), to achieve 96% transcription accuracy, enabling version-controlled access, and reducing manual effort. " +
-            "Architected a scalable microservice based medical records system with Spring Boot and MongoDB to manage 50M+ entries, implementing " +
-            "versioned data models and REST APIs for secure access to clinical histories and lab reports. " +
-            "Revamped a legacy Internet Explorer-only website by replacing ActiveX authentication with a Java Servlet-based LDAP and JWT solution, " +
-            "making it compatible with modern browsers and deployable on Oracle WebLogic Server. " +
-            "Developed a real-time, machine learning-powered duplicate detection system using KNN and Vector DB, identifying CRM object duplicates with " +
-            "over 85% confidence and scaling across 100K+ portals via Kafka swim lanes. " +
-            "Engineered a RESTful API service using Spring Boot and HBase to transitively merge duplicate CRM objects, retaining merger history and " +
-            "enabling future reverts, leading to 90%+ automation of customer reviews. " +
-            "Adopted Agile and Test-Driven Development TDD methodologies using Junit and Mockito improving test accuracy by 25%."
+            "Built a real-time medical transcription web application using a Kaldi-based speech recognition engine and transformer-based NLP models, achieving 96% transcription accuracy and reducing client's manual processing time by 80%. " +
+            "Developed a distributed real-time ticket tracking system using Kafka and Cassandra to handle high-volume resource events, improving system reliability and reducing average ticket resolution time by 45%. " +
+            "Led the design and deployment of a containerized microservices platform for an OTT application using Docker, Kubernetes, and AWS, enabling automated scaling and fault tolerance and increasing service uptime by 30%."
         }
       ]
     }
